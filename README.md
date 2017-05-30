@@ -4,7 +4,7 @@
 
 很遗憾，目前不支持移动端！
 
-演示地址 [//mall.hlzblog.top/test/slide_verify](//mall.hlzblog.top/test/slide_verify)
+演示地址 [http://mall.hlzblog.top/test/slide_verify](http://mall.hlzblog.top/test/slide_verify)
 
 
 
