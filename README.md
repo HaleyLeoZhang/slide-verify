@@ -4,7 +4,7 @@
 
 很遗憾，移动端目前兼容性不好！
 
-演示地址 [http://mall.hlzblog.top/test/slide_verify](http://mall.hlzblog.top/test/slide_verify)
+演示地址 [http://www.hlzblog.top/test/slide_verify](http://www.hlzblog.top/test/slide_verify)
 
 QQ交流群 [399073936](http://shang.qq.com/wpa/qunwpa?idkey=c09cd4c9fbdf5909136208cc93ae2e26b22ec48dbd2583cfdc48d82dde07186b)
 
