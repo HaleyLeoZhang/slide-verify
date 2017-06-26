@@ -8,6 +8,7 @@
 
 QQ交流群 399073936
 
+[滑动验证码thinkphp5实例](链接：http://pan.baidu.com/s/1kVokj6v 密码：93pw)
 
 
 ##### 滑动验证码的嵌入
