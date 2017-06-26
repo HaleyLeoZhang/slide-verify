@@ -6,6 +6,7 @@
 
 演示地址 [http://mall.hlzblog.top/test/slide_verify](http://mall.hlzblog.top/test/slide_verify)
 
+QQ交流群 399073936
 
 
 
@@ -16,8 +17,8 @@
 >>>	输出模板
 
 	$v = new View; 
-	$v->captchar = \Mine\Slide::instance();
-	echo $>v->fetch('User/login');
+	$v->captchar = \Mine\Slide::instance(); // 获得实例
+	echo $>v->fetch('User/login'); // 输出模板
 
 示例模板文件，如下
 
@@ -30,6 +31,24 @@
 	<script src='./static/plugins/layer/js/layer.js'></script>
 	<script src='./static/plugins/verify/js/drag.js'></script>
 	<script>
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+	//++				URL拼接相关
+	//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+	/*
+	* API地址
+	* String : Api_controller 控制器名
+	* String : Api_action	  方法名
+	*/
+	function api(Api_controller='',Api_action='', protocol='http', port=80){
+		var site,
+		    server_name     = document.domain;
+		site = protocol    + '://'  +
+		       server_name + ':'    +
+		       port        + '/Api?'+
+		       //参数
+		       'con=' + Api_controller + '&act=' + Api_action;
+		return site ;
+	}
 	$(document).ready(function() {
 		$(this).yth_drag({
 			"verify_url": api("Slide_Verify", "check"),
