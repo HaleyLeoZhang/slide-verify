@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>只验证验证码 | 滑动验证码</title>
+    <style>
+    a{
+        cursor: pointer;
+        color: #666;
+        text-decoration: none;
+        transition: color 0.2s linear;
+    }
+    a:hover{
+         color: #00c3f5;
+        -webkit-transition: color 0.2s linear;
+        -moz-transition: color 0.2s linear;
+        -ms-transition: color 0.2s linear;
+        -o-transition: color 0.2s linear;
+        transition: color 0.2s linear;
+    }
+    </style>
+</head>
+<body>
+    <h1><a href="https://github.com/HaleyLeoZhang/slide-verify" target="_blank">只实现判别 验证码的正确性</a></h1>
+    <!-- 请不要改此处的id -->
+    <div id="yth_captchar"></div>
+
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/loadjs/3.5.0/loadjs.min.js"></script>
+    <script type="text/javascript" src="http://cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+    <script>
+    loadjs(['/static/plugins/verify/js/min_drag.js'], {
+        success: function() {
+            // 异步初始化验证码
+            $.ajax({
+                "url": "/Verify/init", // 获取初始的验证码 `css + 验证码图片` 的地址
+                "success": function(html) {
+                    $("#yth_captchar").html(html);  // 填充  `css + 验证码图片` 
+                    $(this).yth_drag({
+                        "verify_url": "/Verify/check",
+                        "source_url": "/Verify/captchar"
+                    });
+                }
+            });
+        }
+    });
+    </script>
+</body>
+</html>
