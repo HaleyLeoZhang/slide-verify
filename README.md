@@ -8,7 +8,7 @@
 
 QQ交流群 399073936
 
-百度云盘 [滑动验证码thinkphp5实例]（http://pan.baidu.com/s/1kVokj6v) 密码：93pw
+百度云盘 [滑动验证码thinkphp5实例]（http://pan.baidu.com/s/1c2lGBfU) 密码：qla1
 
 
 ##### 滑动验证码的嵌入
