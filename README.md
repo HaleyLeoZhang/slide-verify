@@ -8,7 +8,9 @@
 
 QQ交流群 [399073936](http://shang.qq.com/wpa/qunwpa?idkey=c09cd4c9fbdf5909136208cc93ae2e26b22ec48dbd2583cfdc48d82dde07186b)
 
-本次的完整案例 基于thinkphp5 目录位于 /tp5_project
+本次的完整案例 基于thinkphp5 [ 但并未包含thinkphp5框架本身 请自行引入测试]
+
+目录位于 /tp5_project
 
 当你使用时，无需依赖任何框架
 
