@@ -8,6 +8,20 @@
 \Mine\Slide::instance(3); // Array  表单提交时验证  => ["status"=> true|false,,"Err"=>"状态码","out"=>"对应的错误信息"]
 */
 namespace Mine;
+
+// 解决nginx下没有函数名getallheaders的情况
+if (!function_exists('getallheaders')) {
+    function getallheaders(){
+        $headers = [];
+        foreach ($_SERVER as $name => $value) {
+            if (substr($name, 0, 5) == 'HTTP_') {
+                $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
+            }
+        }
+        return $headers;
+    }
+}
+
 class Slide{
     /**
     *  验证码配置
