@@ -6,7 +6,7 @@
 
 演示地址 [http://www.hlzblog.top/test/slide_verify](http://www.hlzblog.top/test/slide_verify)
 
-QQ交流群 [399073936](http://shang.qq.com/wpa/qunwpa?idkey=c09cd4c9fbdf5909136208cc93ae2e26b22ec48dbd2583cfdc48d82dde07186b)
+QQ交流群 [239734937](http://shang.qq.com/wpa/qunwpa?idkey=5558b007499df85482751b2164082cc515d0b0538efe149ee1ab19be2ff5253e)
 
 本次的完整案例 基于thinkphp5 [ 但并未包含thinkphp5框架本身 请自行引入测试]
 
