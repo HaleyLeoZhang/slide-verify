@@ -8,9 +8,11 @@
 
 QQ交流群 [239734937](http://shang.qq.com/wpa/qunwpa?idkey=5558b007499df85482751b2164082cc515d0b0538efe149ee1ab19be2ff5253e)
 
-本次的完整案例 基于thinkphp5 [ 但并未包含thinkphp5框架本身 请自行引入测试]
+单机部署----完整案例 基于thinkphp5 [ 但并未包含thinkphp5框架本身 请自行引入测试]
 
 目录位于 /tp5_project
+
+分布式部署---Laravel框架示例，请追溯 [blog_v3](https://github.com/HaleyLeoZhang/blog_v3/blob/master/app/Http/Controllers/Api/SlideVerifyController.php) 项目源码
 
 当你使用时，无需依赖任何框架
 
